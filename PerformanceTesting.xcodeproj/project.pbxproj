@@ -14,6 +14,22 @@
 		25514C6C13026D79002C5D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25514C6B13026D79002C5D1F /* main.m */; };
 		25514C6F13026D79002C5D1F /* PerformanceTestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25514C6E13026D79002C5D1F /* PerformanceTestingAppDelegate.m */; };
 		25514C7213026D79002C5D1F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25514C7013026D79002C5D1F /* MainWindow.xib */; };
+		25DB9F3F13058A9200F39A44 /* GradientBackgroundTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F2B13058A9200F39A44 /* GradientBackgroundTable.m */; };
+		25DB9F4013058A9200F39A44 /* PageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F2E13058A9200F39A44 /* PageCell.m */; };
+		25DB9F4113058A9200F39A44 /* PageCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F3013058A9200F39A44 /* PageCellBackground.m */; };
+		25DB9F4213058A9200F39A44 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F3213058A9200F39A44 /* PageViewController.m */; };
+		25DB9F4313058A9200F39A44 /* RoundRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F3513058A9200F39A44 /* RoundRect.m */; };
+		25DB9F4413058A9200F39A44 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3713058A9200F39A44 /* clock.png */; };
+		25DB9F4513058A9200F39A44 /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3813058A9200F39A44 /* clock@2x.png */; };
+		25DB9F4613058A9200F39A44 /* database.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3913058A9200F39A44 /* database.png */; };
+		25DB9F4713058A9200F39A44 /* database@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3A13058A9200F39A44 /* database@2x.png */; };
+		25DB9F4813058A9200F39A44 /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3B13058A9200F39A44 /* graph.png */; };
+		25DB9F4913058A9200F39A44 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3C13058A9200F39A44 /* graph@2x.png */; };
+		25DB9F4A13058A9200F39A44 /* preferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3D13058A9200F39A44 /* preferences.png */; };
+		25DB9F4B13058A9200F39A44 /* preferences@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F3E13058A9200F39A44 /* preferences@2x.png */; };
+		25DB9F4E130590EE00F39A44 /* MCTestsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F4D130590EE00F39A44 /* MCTestsController.m */; };
+		25DB9F511305912B00F39A44 /* MCResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F501305912B00F39A44 /* MCResultsController.m */; };
+		25DB9F541305914200F39A44 /* MCSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F531305914200F39A44 /* MCSettingsController.m */; };
 		25E7536B130585AE0056F4F4 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7536A130585AE0056F4F4 /* DebugLog.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +45,30 @@
 		25514C6D13026D79002C5D1F /* PerformanceTestingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerformanceTestingAppDelegate.h; sourceTree = "<group>"; };
 		25514C6E13026D79002C5D1F /* PerformanceTestingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerformanceTestingAppDelegate.m; sourceTree = "<group>"; };
 		25514C7113026D79002C5D1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		25DB9F2A13058A9200F39A44 /* GradientBackgroundTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBackgroundTable.h; sourceTree = "<group>"; };
+		25DB9F2B13058A9200F39A44 /* GradientBackgroundTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientBackgroundTable.m; sourceTree = "<group>"; };
+		25DB9F2D13058A9200F39A44 /* PageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCell.h; sourceTree = "<group>"; };
+		25DB9F2E13058A9200F39A44 /* PageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCell.m; sourceTree = "<group>"; };
+		25DB9F2F13058A9200F39A44 /* PageCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCellBackground.h; sourceTree = "<group>"; };
+		25DB9F3013058A9200F39A44 /* PageCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCellBackground.m; sourceTree = "<group>"; };
+		25DB9F3113058A9200F39A44 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		25DB9F3213058A9200F39A44 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		25DB9F3413058A9200F39A44 /* RoundRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundRect.h; sourceTree = "<group>"; };
+		25DB9F3513058A9200F39A44 /* RoundRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRect.m; sourceTree = "<group>"; };
+		25DB9F3713058A9200F39A44 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		25DB9F3813058A9200F39A44 /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		25DB9F3913058A9200F39A44 /* database.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = database.png; sourceTree = "<group>"; };
+		25DB9F3A13058A9200F39A44 /* database@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "database@2x.png"; sourceTree = "<group>"; };
+		25DB9F3B13058A9200F39A44 /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		25DB9F3C13058A9200F39A44 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
+		25DB9F3D13058A9200F39A44 /* preferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preferences.png; sourceTree = "<group>"; };
+		25DB9F3E13058A9200F39A44 /* preferences@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preferences@2x.png"; sourceTree = "<group>"; };
+		25DB9F4C130590EE00F39A44 /* MCTestsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTestsController.h; sourceTree = "<group>"; };
+		25DB9F4D130590EE00F39A44 /* MCTestsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTestsController.m; sourceTree = "<group>"; };
+		25DB9F4F1305912B00F39A44 /* MCResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCResultsController.h; sourceTree = "<group>"; };
+		25DB9F501305912B00F39A44 /* MCResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCResultsController.m; sourceTree = "<group>"; };
+		25DB9F521305914100F39A44 /* MCSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSettingsController.h; sourceTree = "<group>"; };
+		25DB9F531305914200F39A44 /* MCSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSettingsController.m; sourceTree = "<group>"; };
 		25E7536A130585AE0056F4F4 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,6 +89,8 @@
 		25514C4F13026D79002C5D1F = {
 			isa = PBXGroup;
 			children = (
+				25DB9F2713058A9200F39A44 /* External */,
+				25DB9F3613058A9200F39A44 /* Images */,
 				25514C6413026D79002C5D1F /* PerformanceTesting */,
 				25514C5D13026D79002C5D1F /* Frameworks */,
 				25514C5B13026D79002C5D1F /* Products */,
@@ -80,6 +122,12 @@
 				25514C6E13026D79002C5D1F /* PerformanceTestingAppDelegate.m */,
 				25514C7013026D79002C5D1F /* MainWindow.xib */,
 				25514C6513026D79002C5D1F /* Supporting Files */,
+				25DB9F4C130590EE00F39A44 /* MCTestsController.h */,
+				25DB9F4D130590EE00F39A44 /* MCTestsController.m */,
+				25DB9F4F1305912B00F39A44 /* MCResultsController.h */,
+				25DB9F501305912B00F39A44 /* MCResultsController.m */,
+				25DB9F521305914100F39A44 /* MCSettingsController.h */,
+				25DB9F531305914200F39A44 /* MCSettingsController.m */,
 			);
 			path = PerformanceTesting;
 			sourceTree = "<group>";
@@ -94,6 +142,70 @@
 				25514C6B13026D79002C5D1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DB9F2713058A9200F39A44 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				25DB9F2813058A9200F39A44 /* CocoaWithLove */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		25DB9F2813058A9200F39A44 /* CocoaWithLove */ = {
+			isa = PBXGroup;
+			children = (
+				25DB9F2913058A9200F39A44 /* CustomViews */,
+				25DB9F2C13058A9200F39A44 /* PageViewHierarchy */,
+				25DB9F3313058A9200F39A44 /* Utility */,
+			);
+			path = CocoaWithLove;
+			sourceTree = "<group>";
+		};
+		25DB9F2913058A9200F39A44 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				25DB9F2A13058A9200F39A44 /* GradientBackgroundTable.h */,
+				25DB9F2B13058A9200F39A44 /* GradientBackgroundTable.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		25DB9F2C13058A9200F39A44 /* PageViewHierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				25DB9F2D13058A9200F39A44 /* PageCell.h */,
+				25DB9F2E13058A9200F39A44 /* PageCell.m */,
+				25DB9F2F13058A9200F39A44 /* PageCellBackground.h */,
+				25DB9F3013058A9200F39A44 /* PageCellBackground.m */,
+				25DB9F3113058A9200F39A44 /* PageViewController.h */,
+				25DB9F3213058A9200F39A44 /* PageViewController.m */,
+			);
+			path = PageViewHierarchy;
+			sourceTree = "<group>";
+		};
+		25DB9F3313058A9200F39A44 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				25DB9F3413058A9200F39A44 /* RoundRect.h */,
+				25DB9F3513058A9200F39A44 /* RoundRect.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		25DB9F3613058A9200F39A44 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				25DB9F3713058A9200F39A44 /* clock.png */,
+				25DB9F3813058A9200F39A44 /* clock@2x.png */,
+				25DB9F3913058A9200F39A44 /* database.png */,
+				25DB9F3A13058A9200F39A44 /* database@2x.png */,
+				25DB9F3B13058A9200F39A44 /* graph.png */,
+				25DB9F3C13058A9200F39A44 /* graph@2x.png */,
+				25DB9F3D13058A9200F39A44 /* preferences.png */,
+				25DB9F3E13058A9200F39A44 /* preferences@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +260,14 @@
 			files = (
 				25514C6913026D79002C5D1F /* InfoPlist.strings in Resources */,
 				25514C7213026D79002C5D1F /* MainWindow.xib in Resources */,
+				25DB9F4413058A9200F39A44 /* clock.png in Resources */,
+				25DB9F4513058A9200F39A44 /* clock@2x.png in Resources */,
+				25DB9F4613058A9200F39A44 /* database.png in Resources */,
+				25DB9F4713058A9200F39A44 /* database@2x.png in Resources */,
+				25DB9F4813058A9200F39A44 /* graph.png in Resources */,
+				25DB9F4913058A9200F39A44 /* graph@2x.png in Resources */,
+				25DB9F4A13058A9200F39A44 /* preferences.png in Resources */,
+				25DB9F4B13058A9200F39A44 /* preferences@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +281,14 @@
 				25514C6C13026D79002C5D1F /* main.m in Sources */,
 				25514C6F13026D79002C5D1F /* PerformanceTestingAppDelegate.m in Sources */,
 				25E7536B130585AE0056F4F4 /* DebugLog.m in Sources */,
+				25DB9F3F13058A9200F39A44 /* GradientBackgroundTable.m in Sources */,
+				25DB9F4013058A9200F39A44 /* PageCell.m in Sources */,
+				25DB9F4113058A9200F39A44 /* PageCellBackground.m in Sources */,
+				25DB9F4213058A9200F39A44 /* PageViewController.m in Sources */,
+				25DB9F4313058A9200F39A44 /* RoundRect.m in Sources */,
+				25DB9F4E130590EE00F39A44 /* MCTestsController.m in Sources */,
+				25DB9F511305912B00F39A44 /* MCResultsController.m in Sources */,
+				25DB9F541305914200F39A44 /* MCSettingsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

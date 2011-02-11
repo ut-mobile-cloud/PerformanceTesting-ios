@@ -11,8 +11,10 @@
 @interface PerformanceTestingAppDelegate : NSObject <UIApplicationDelegate> {
 @private
 
+	UITabBarController *tabBarController;
 }
 
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
 @end

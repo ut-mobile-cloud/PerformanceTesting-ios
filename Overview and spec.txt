@@ -1,0 +1,21 @@
+Preformance testing app for comparison of connections and transfer rates between middleware and vendor API-s.
+
+Ver 0.1
+This app should:
+	- transfer data(eg. images) of different sizes from phone to cloud, from cloud to phone
+	- should test connection delays, transfer speed
+	- different transfer options - files in total amount of 2 MB. For example
+		- 10 200kB files
+		- 1 2MB file
+		- 100 20 kB files
+	- use use different connection methods (3G, EDGE, WiFi). Testing from simulator seems to only have importance during the development of the test suite. Afterwards only results from device matter.
+
+Test descriptions:
+	- tests should be easily described using common format like JSON or XML
+	- test output should be in CSV or JSON for additional parsing
+	- tests should be automatically generated from input file
+	
+Test data:
+	- 2 image files for each size should be available
+
+Ver 0.1 of this app will only test connections between Amazon S3 - Phone and Middleware - Phone

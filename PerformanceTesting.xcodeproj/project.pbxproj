@@ -14,6 +14,12 @@
 		25514C6C13026D79002C5D1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25514C6B13026D79002C5D1F /* main.m */; };
 		25514C6F13026D79002C5D1F /* PerformanceTestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25514C6E13026D79002C5D1F /* PerformanceTestingAppDelegate.m */; };
 		25514C7213026D79002C5D1F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25514C7013026D79002C5D1F /* MainWindow.xib */; };
+		25E75364130585140056F4F4 /* GradientBackgroundTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E75359130585140056F4F4 /* GradientBackgroundTable.m */; };
+		25E75365130585140056F4F4 /* PageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7535C130585140056F4F4 /* PageCell.m */; };
+		25E75366130585140056F4F4 /* PageCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7535E130585140056F4F4 /* PageCellBackground.m */; };
+		25E75367130585140056F4F4 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E75360130585140056F4F4 /* PageViewController.m */; };
+		25E75368130585140056F4F4 /* RoundRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E75363130585140056F4F4 /* RoundRect.m */; };
+		25E7536B130585AE0056F4F4 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7536A130585AE0056F4F4 /* DebugLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +27,24 @@
 		25514C5E13026D79002C5D1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		25514C6013026D79002C5D1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25514C6213026D79002C5D1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		25514C6613026D79002C5D1F /* PerformanceTesting-Info.plist */ = {isa = PBXFileReference; path = "PerformanceTesting-Info.plist"; sourceTree = "<group>"; };
+		25514C6613026D79002C5D1F /* PerformanceTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PerformanceTesting-Info.plist"; sourceTree = "<group>"; };
 		25514C6813026D79002C5D1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		25514C6A13026D79002C5D1F /* PerformanceTesting-Prefix.pch */ = {isa = PBXFileReference; path = "PerformanceTesting-Prefix.pch"; sourceTree = "<group>"; };
+		25514C6A13026D79002C5D1F /* PerformanceTesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerformanceTesting-Prefix.pch"; sourceTree = "<group>"; };
 		25514C6B13026D79002C5D1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25514C6D13026D79002C5D1F /* PerformanceTestingAppDelegate.h */ = {isa = PBXFileReference; path = PerformanceTestingAppDelegate.h; sourceTree = "<group>"; };
+		25514C6D13026D79002C5D1F /* PerformanceTestingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerformanceTestingAppDelegate.h; sourceTree = "<group>"; };
 		25514C6E13026D79002C5D1F /* PerformanceTestingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerformanceTestingAppDelegate.m; sourceTree = "<group>"; };
 		25514C7113026D79002C5D1F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		25E75358130585140056F4F4 /* GradientBackgroundTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientBackgroundTable.h; sourceTree = "<group>"; };
+		25E75359130585140056F4F4 /* GradientBackgroundTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientBackgroundTable.m; sourceTree = "<group>"; };
+		25E7535B130585140056F4F4 /* PageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCell.h; sourceTree = "<group>"; };
+		25E7535C130585140056F4F4 /* PageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCell.m; sourceTree = "<group>"; };
+		25E7535D130585140056F4F4 /* PageCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCellBackground.h; sourceTree = "<group>"; };
+		25E7535E130585140056F4F4 /* PageCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCellBackground.m; sourceTree = "<group>"; };
+		25E7535F130585140056F4F4 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		25E75360130585140056F4F4 /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		25E75362130585140056F4F4 /* RoundRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundRect.h; sourceTree = "<group>"; };
+		25E75363130585140056F4F4 /* RoundRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRect.m; sourceTree = "<group>"; };
+		25E7536A130585AE0056F4F4 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 		25514C4F13026D79002C5D1F = {
 			isa = PBXGroup;
 			children = (
+				25E75355130585140056F4F4 /* External */,
 				25514C6413026D79002C5D1F /* PerformanceTesting */,
 				25514C5D13026D79002C5D1F /* Frameworks */,
 				25514C5B13026D79002C5D1F /* Products */,
@@ -85,12 +103,63 @@
 		25514C6513026D79002C5D1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25E7536A130585AE0056F4F4 /* DebugLog.m */,
 				25514C6613026D79002C5D1F /* PerformanceTesting-Info.plist */,
 				25514C6713026D79002C5D1F /* InfoPlist.strings */,
 				25514C6A13026D79002C5D1F /* PerformanceTesting-Prefix.pch */,
 				25514C6B13026D79002C5D1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25E75355130585140056F4F4 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				25E75356130585140056F4F4 /* CocoaWithLove */,
+			);
+			name = External;
+			path = PerformanceTesting/External;
+			sourceTree = "<group>";
+		};
+		25E75356130585140056F4F4 /* CocoaWithLove */ = {
+			isa = PBXGroup;
+			children = (
+				25E75357130585140056F4F4 /* CustomViews */,
+				25E7535A130585140056F4F4 /* PageViewHierarchy */,
+				25E75361130585140056F4F4 /* Utility */,
+			);
+			path = CocoaWithLove;
+			sourceTree = "<group>";
+		};
+		25E75357130585140056F4F4 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				25E75358130585140056F4F4 /* GradientBackgroundTable.h */,
+				25E75359130585140056F4F4 /* GradientBackgroundTable.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		25E7535A130585140056F4F4 /* PageViewHierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				25E7535B130585140056F4F4 /* PageCell.h */,
+				25E7535C130585140056F4F4 /* PageCell.m */,
+				25E7535D130585140056F4F4 /* PageCellBackground.h */,
+				25E7535E130585140056F4F4 /* PageCellBackground.m */,
+				25E7535F130585140056F4F4 /* PageViewController.h */,
+				25E75360130585140056F4F4 /* PageViewController.m */,
+			);
+			path = PageViewHierarchy;
+			sourceTree = "<group>";
+		};
+		25E75361130585140056F4F4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				25E75362130585140056F4F4 /* RoundRect.h */,
+				25E75363130585140056F4F4 /* RoundRect.m */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +226,12 @@
 			files = (
 				25514C6C13026D79002C5D1F /* main.m in Sources */,
 				25514C6F13026D79002C5D1F /* PerformanceTestingAppDelegate.m in Sources */,
+				25E75364130585140056F4F4 /* GradientBackgroundTable.m in Sources */,
+				25E75365130585140056F4F4 /* PageCell.m in Sources */,
+				25E75366130585140056F4F4 /* PageCellBackground.m in Sources */,
+				25E75367130585140056F4F4 /* PageViewController.m in Sources */,
+				25E75368130585140056F4F4 /* RoundRect.m in Sources */,
+				25E7536B130585AE0056F4F4 /* DebugLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +333,7 @@
 				25514C7713026D79002C5D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

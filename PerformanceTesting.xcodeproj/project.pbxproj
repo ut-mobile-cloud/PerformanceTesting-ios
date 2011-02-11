@@ -30,6 +30,10 @@
 		25DB9F4E130590EE00F39A44 /* MCTestsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F4D130590EE00F39A44 /* MCTestsController.m */; };
 		25DB9F511305912B00F39A44 /* MCResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F501305912B00F39A44 /* MCResultsController.m */; };
 		25DB9F541305914200F39A44 /* MCSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DB9F531305914200F39A44 /* MCSettingsController.m */; };
+		25DB9F561305927100F39A44 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DB9F551305927100F39A44 /* AWSiOSSDK.framework */; };
+		25DB9F5B1305947D00F39A44 /* image-20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F581305947D00F39A44 /* image-20.jpg */; };
+		25DB9F5C1305947D00F39A44 /* image-200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F591305947D00F39A44 /* image-200.jpg */; };
+		25DB9F5D1305947E00F39A44 /* image-2000.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25DB9F5A1305947D00F39A44 /* image-2000.gif */; };
 		25E7536B130585AE0056F4F4 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7536A130585AE0056F4F4 /* DebugLog.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +73,10 @@
 		25DB9F501305912B00F39A44 /* MCResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCResultsController.m; sourceTree = "<group>"; };
 		25DB9F521305914100F39A44 /* MCSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSettingsController.h; sourceTree = "<group>"; };
 		25DB9F531305914200F39A44 /* MCSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSettingsController.m; sourceTree = "<group>"; };
+		25DB9F551305927100F39A44 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDK.framework; sourceTree = "<group>"; };
+		25DB9F581305947D00F39A44 /* image-20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-20.jpg"; sourceTree = "<group>"; };
+		25DB9F591305947D00F39A44 /* image-200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-200.jpg"; sourceTree = "<group>"; };
+		25DB9F5A1305947D00F39A44 /* image-2000.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "image-2000.gif"; sourceTree = "<group>"; };
 		25E7536A130585AE0056F4F4 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DB9F561305927100F39A44 /* AWSiOSSDK.framework in Frameworks */,
 				25514C5F13026D79002C5D1F /* UIKit.framework in Frameworks */,
 				25514C6113026D79002C5D1F /* Foundation.framework in Frameworks */,
 				25514C6313026D79002C5D1F /* CoreGraphics.framework in Frameworks */,
@@ -147,6 +156,7 @@
 		25DB9F2713058A9200F39A44 /* External */ = {
 			isa = PBXGroup;
 			children = (
+				25DB9F551305927100F39A44 /* AWSiOSSDK.framework */,
 				25DB9F2813058A9200F39A44 /* CocoaWithLove */,
 			);
 			path = External;
@@ -196,6 +206,7 @@
 		25DB9F3613058A9200F39A44 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				25DB9F571305947D00F39A44 /* TestData */,
 				25DB9F3713058A9200F39A44 /* clock.png */,
 				25DB9F3813058A9200F39A44 /* clock@2x.png */,
 				25DB9F3913058A9200F39A44 /* database.png */,
@@ -206,6 +217,16 @@
 				25DB9F3E13058A9200F39A44 /* preferences@2x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		25DB9F571305947D00F39A44 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				25DB9F581305947D00F39A44 /* image-20.jpg */,
+				25DB9F591305947D00F39A44 /* image-200.jpg */,
+				25DB9F5A1305947D00F39A44 /* image-2000.gif */,
+			);
+			path = TestData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +289,9 @@
 				25DB9F4913058A9200F39A44 /* graph@2x.png in Resources */,
 				25DB9F4A13058A9200F39A44 /* preferences.png in Resources */,
 				25DB9F4B13058A9200F39A44 /* preferences@2x.png in Resources */,
+				25DB9F5B1305947D00F39A44 /* image-20.jpg in Resources */,
+				25DB9F5C1305947D00F39A44 /* image-200.jpg in Resources */,
+				25DB9F5D1305947E00F39A44 /* image-2000.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +372,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PerformanceTesting/PerformanceTesting-Prefix.pch";
@@ -362,6 +390,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/External\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PerformanceTesting/PerformanceTesting-Prefix.pch";
 				INFOPLIST_FILE = "PerformanceTesting/PerformanceTesting-Info.plist";

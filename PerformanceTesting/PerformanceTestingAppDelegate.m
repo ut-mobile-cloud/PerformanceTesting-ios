@@ -7,7 +7,7 @@
 //
 
 #import "PerformanceTestingAppDelegate.h"
-
+#import "MCTestsController.h"
 @implementation PerformanceTestingAppDelegate
 
 

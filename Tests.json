@@ -1,0 +1,17 @@
+{
+	"tests":
+	[
+		{
+			"name" : "Test 1",
+			"description" : "Test with small files",
+			"dataFile" : "image-20.jpg",
+			"repetitions" : 100
+		},
+		{
+			"name" : "Test 2",
+			"description" : "Test with medium files",
+			"dataFile" : "image-200.jpg",
+			"repetitions" : 10
+		}
+	]	
+}

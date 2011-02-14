@@ -7,60 +7,44 @@
 //
 
 #import "MCSettingsController.h"
-
+#import "LabelCell.h"
+#import "GradientBackgroundTable.h"
 
 @implementation MCSettingsController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)createRows
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+	[self addSectionAtIndex:0 withAnimation:UITableViewRowAnimationFade];
+	for (NSInteger i = 0; i < 4; i++)
+	{
+		[self
+		 appendRowToSection:0
+		 cellClass:[LabelCell class]
+		 cellData:[NSString stringWithFormat:
+				   NSLocalizedString(@"This is row %ld", @""), i + 1]
+		 withAnimation:(i % 2) == 0 ?
+		 UITableViewRowAnimationLeft :
+		 UITableViewRowAnimationRight];
+	}
 }
 
-- (void)dealloc
-{
-    [super dealloc];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
-{
-}
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
+	self.useCustomHeaders = YES;
+	[self removeAllSectionsWithAnimation:UITableViewRowAnimationFade];
+	[self performSelector:@selector(createRows) withObject:nil afterDelay:0.5];
 }
-*/
 
-- (void)viewDidUnload
+- (void)loadView
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+	GradientBackgroundTable *aTableView =
+	[[[GradientBackgroundTable alloc]
+	  initWithFrame:CGRectZero
+	  style:UITableViewStyleGrouped]
+	 autorelease];
+	
+	self.view = aTableView;
+	self.tableView = aTableView;
 }
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-
 @end

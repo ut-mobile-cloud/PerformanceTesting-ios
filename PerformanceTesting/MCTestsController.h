@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PageViewController.h"
 
-
-@interface MCTestsController : UIViewController {
+@interface MCTestsController : PageViewController {
     
 }
+- (IBAction)rerunTestsPressed:(id)sender;
+- (IBAction)runTestsPressed:(id)sender;
 
 @end

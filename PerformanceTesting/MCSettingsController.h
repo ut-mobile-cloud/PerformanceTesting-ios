@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PageViewController.h"
 
-
-@interface MCSettingsController : UIViewController {
+@interface MCSettingsController : PageViewController {
     
 }
 

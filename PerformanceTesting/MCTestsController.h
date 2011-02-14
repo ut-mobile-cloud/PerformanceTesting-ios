@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "PageViewController.h"
-
-@interface MCTestsController : PageViewController {
+#import "MCTestDelegate.h"
+@interface MCTestsController : PageViewController <MCTestDelegate> {
     
 }
 - (IBAction)rerunTestsPressed:(id)sender;

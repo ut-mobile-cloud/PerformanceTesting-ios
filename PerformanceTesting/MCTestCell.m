@@ -7,7 +7,7 @@
 //
 
 #import "MCTestCell.h"
-
+#import "MCTest.h"
 
 @implementation MCTestCell
 @synthesize progressMade;
@@ -36,14 +36,20 @@
 	return CGRectMake(frame.origin.x, frame.origin.y, newSize, frame.size.height);
 }
 
+- (void)mctest:(MCTest *)test changedProgressTo:(float)newProgress
+{
+	[UIView beginAnimations:nil context:nil];
+	DLog(@"Progress made : %.2f ", newProgress);
+	self.progressMade.frame = [self resizeFrame:self.progressMade.frame widthToPercent:newProgress/100 ofMax:self.progressBackground.frame.size.width];
+	[UIView commitAnimations];
+}
+
 - (void)configureForData:(id)dataObject tableView:(UITableView *)aTableView indexPath:(NSIndexPath *)anIndexPath
 {
 	[super configureForData:dataObject tableView:aTableView indexPath:anIndexPath];
-	[UIView beginAnimations:nil context:nil];
 	self.progressMade.frame = [self resizeFrame:self.progressMade.frame 
-								 widthToPercent:0.8 
+								 widthToPercent:0.0 
 										  ofMax:self.progressBackground.frame.size.width];
-	[UIView commitAnimations];
 }
 
 - (void)dealloc {
@@ -53,10 +59,8 @@
 }
 
 - (IBAction)rerunTestPushed:(id)sender {
-	self.progressMade.frame = [self resizeFrame:self.progressMade.frame widthToPercent:0 ofMax:self.progressBackground.frame.size.width];
-	[UIView beginAnimations:nil context:nil];
-		self.progressMade.frame = [self resizeFrame:self.progressMade.frame widthToPercent:0.66 ofMax:self.progressBackground.frame.size.width];
-	
-	[UIView commitAnimations];
+	MCTest *sampleTest = [[MCTest alloc] init];
+	sampleTest.delegate = self;
+	[sampleTest run];
 }
 @end

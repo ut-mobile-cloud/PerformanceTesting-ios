@@ -19,3 +19,17 @@ Test data:
 	- 2 image files for each size should be available
 
 Ver 0.1 of this app will only test connections between Amazon S3 - Phone and Middleware - Phone
+
+=========
+Use cases:
+
+Running tests:
+	User will start app. He will be shown the Tests screen. He will push [Run tests] button on toolbar.
+
+Uploading file(example):
+	1) user will run tests
+	2) first test will be run
+	3) file will be uploaded 10 times
+	4) at the same time (while the file is uploaded) user sees progress
+	5) starting new tests should be disabled or the button should change into a stop button
+	6) after file has been uploaded predetermined n times somehow user will be directed to results window

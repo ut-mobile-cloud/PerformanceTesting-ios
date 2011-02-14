@@ -10,14 +10,15 @@
 #import "MCTestsController.h"
 @implementation PerformanceTestingAppDelegate
 
-
 @synthesize tabBarController;
 @synthesize window;
+@synthesize resultsTabBarItem;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	// Override point for customization after application launch.
 	[self.window addSubview:self.tabBarController.view];
+//	self.resultsTabBarItem.badgeValue = @"!";
 	[self.window makeKeyAndVisible];
     return YES;
 }
@@ -39,6 +40,7 @@
 
 	[window release];
     [tabBarController release];
+	[resultsTabBarItem release];
     [super dealloc];
 }
 

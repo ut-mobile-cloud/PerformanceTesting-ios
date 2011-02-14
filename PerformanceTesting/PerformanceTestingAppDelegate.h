@@ -12,9 +12,11 @@
 @private
 
 	UITabBarController *tabBarController;
+	UITabBarItem *resultsTabBarItem;
 }
 
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarItem *resultsTabBarItem;
 
 @end

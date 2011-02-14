@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "PageCell.h"
+#import "MCTestDelegate.h"
 
-@interface MCTestCell : PageCell {
+@interface MCTestCell : PageCell<MCTestDelegate> {
     
 	UIView *progressMade;
 	UIView *progressBackground;

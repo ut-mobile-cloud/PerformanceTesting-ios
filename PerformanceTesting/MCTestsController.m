@@ -14,7 +14,7 @@
 #import "GradientBackgroundTable.h"
 #import "MCTest.h"
 @implementation MCTestsController
-
+@synthesize tests;
 
 - (IBAction)rerunTestsPressed:(id)sender
 {
@@ -37,7 +37,7 @@
 		[self
 		 appendRowToSection:0
 		 cellClass:[MCTestCell class]
-		 cellData:nil
+		 cellData:[self.tests objectAtIndex:0]
 		 withAnimation:(i % 2) == 0 ?
 		 UITableViewRowAnimationLeft :
 		 UITableViewRowAnimationRight];
@@ -62,8 +62,14 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
+	if(tests != nil) {
+		[tests release];
+	}
+	tests = [[NSMutableArray alloc] init];
 	self.useCustomHeaders = YES;
 	[self removeAllSectionsWithAnimation:UITableViewRowAnimationFade];
+	MCTest *test = [[MCTest alloc] initWithName:@"Sample test" description:@"Sample test description. Lets see"];
+	[self.tests addObject:test];
 	[self performSelector:@selector(createRows) withObject:nil afterDelay:0.5];
 }
 
@@ -72,4 +78,9 @@
 	[super viewDidUnload];
 }
 
+- (void)dealloc
+{
+	[tests release];
+	[super dealloc];
+}
 @end

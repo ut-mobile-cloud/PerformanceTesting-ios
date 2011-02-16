@@ -12,6 +12,15 @@
 @implementation MCTest
 @synthesize delegate, name, description;
 
+- (id)initWithName:(NSString *)theName description:(NSString *)theDescription
+{
+	self = [super init];
+	if(self) {
+		name = [theName retain];
+		description = [theDescription retain];
+	}
+	return self;
+}
 - (void)run
 {
 	progress = 0.0;
@@ -26,6 +35,13 @@
 		[timer invalidate];
 		timer = nil;
 	}
+}
+
+- (void)dealloc
+{
+	[name release];
+	[description release];
+	[super dealloc];
 }
 
 @end

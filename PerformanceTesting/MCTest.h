@@ -19,6 +19,7 @@
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *description;
 
+- (id)initWithName:(NSString *)theName description:(NSString *)theDescription;
 - (void)run;
 
 @end

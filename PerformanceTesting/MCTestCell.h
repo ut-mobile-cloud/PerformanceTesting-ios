@@ -14,9 +14,13 @@
     
 	UIView *progressMade;
 	UIView *progressBackground;
+	UILabel *testName;
+	UILabel *testDescription;
 }
 @property (nonatomic, retain) IBOutlet UIView *progressMade;
 @property (nonatomic, retain) IBOutlet UIView *progressBackground;
+@property (nonatomic, retain) IBOutlet UILabel *testName;
+@property (nonatomic, retain) IBOutlet UILabel *testDescription;
 
 - (IBAction)rerunTestPushed:(id)sender;
 

@@ -12,6 +12,8 @@
 @implementation MCTestCell
 @synthesize progressMade;
 @synthesize progressBackground;
+@synthesize testName;
+@synthesize testDescription;
 
 + (NSString *)nibName
 {
@@ -47,6 +49,9 @@
 - (void)configureForData:(id)dataObject tableView:(UITableView *)aTableView indexPath:(NSIndexPath *)anIndexPath
 {
 	[super configureForData:dataObject tableView:aTableView indexPath:anIndexPath];
+	MCTest *test = (MCTest *)dataObject;
+	self.testName.text = test.name;
+	self.testDescription.text = test.description;
 	self.progressMade.frame = [self resizeFrame:self.progressMade.frame 
 								 widthToPercent:0.0 
 										  ofMax:self.progressBackground.frame.size.width];
@@ -55,6 +60,8 @@
 - (void)dealloc {
 	[progressMade release];
 	[progressBackground release];
+	[testName release];
+	[testDescription release];
 	[super dealloc];
 }
 

@@ -79,7 +79,7 @@
 						<string key="NSFrame">{{20, 10}, {233, 25}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="430252952"/>
+						<reference key="NSNextKeyView" ref="177785849"/>
 						<object class="NSColor" key="IBUIBackgroundColor" id="549673946">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MCAwAA</bytes>
@@ -132,7 +132,7 @@
 							<string key="NSResourceName">arrow_circle_left.png</string>
 						</object>
 					</object>
-					<object class="IBUILabel" id="430252952">
+					<object class="IBUILabel" id="177785849">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 39}, {233, 32}}</string>
@@ -218,7 +218,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">testDescription</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="430252952"/>
+						<reference key="destination" ref="177785849"/>
 					</object>
 					<int key="connectionID">15</int>
 				</object>
@@ -239,7 +239,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="627568267"/>
 							<reference ref="456922105"/>
-							<reference ref="430252952"/>
+							<reference ref="177785849"/>
 							<reference ref="381030015"/>
 						</object>
 						<reference key="parent" ref="0"/>
@@ -284,7 +284,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">14</int>
-						<reference key="object" ref="430252952"/>
+						<reference key="object" ref="177785849"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>

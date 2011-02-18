@@ -10,7 +10,7 @@
 
 
 @implementation MCTest
-@synthesize delegate, name, description;
+@synthesize delegate, name, description, remoteResource;
 
 - (id)initWithName:(NSString *)theName description:(NSString *)theDescription
 {
@@ -23,8 +23,10 @@
 }
 - (void)run
 {
-	progress = 0.0;
-	[NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(informDelegate:) userInfo:nil repeats:YES];
+	[NSException raise:NSInternalInconsistencyException 
+				format:@"This method has to be overridden in a subclass"];
+//	progress = 0.0;
+//	[NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(informDelegate:) userInfo:nil repeats:YES];
 }
 
 - (void)informDelegate:(NSTimer *)timer
@@ -39,6 +41,7 @@
 
 - (void)dealloc
 {
+	[remoteResource release];
 	[name release];
 	[description release];
 	[super dealloc];

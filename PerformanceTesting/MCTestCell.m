@@ -20,7 +20,6 @@
 	return @"MCTestCell";
 }
 
-
 - (void)handleSelectionInTableView:(UITableView *)aTableView
 {
 	// Should perform appropriate action when clicked on, eg. push view controller with test results

@@ -1,5 +1,5 @@
 //
-//  MCTestS3.h
+//  MCS3Test.h
 //  PerformanceTesting
 //
 //  Created by Madis Nõmme on 2/18/11.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MCTest.h"
 
-@interface MCTestS3 : MCTest {
+@interface MCS3Test : MCTest {
     
 }
 

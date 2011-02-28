@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2503070A130E8329003D0727 /* MCS3ResourceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 25030709130E8329003D0727 /* MCS3ResourceProvider.m */; };
-		2503094A130EA3CA003D0727 /* MCTestS3.m in Sources */ = {isa = PBXBuildFile; fileRef = 25030949130EA3C8003D0727 /* MCTestS3.m */; };
+		2503094D130EB65D003D0727 /* MCS3Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2503094C130EB65C003D0727 /* MCS3Test.m */; };
 		251F40011309167A005CB000 /* MCTestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 251F40001309167A005CB000 /* MCTestCell.xib */; };
 		251F40041309190A005CB000 /* MCTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 251F400313091909005CB000 /* MCTestCell.m */; };
 		251F400713092EA4005CB000 /* arrow_circle_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 251F400513092EA4005CB000 /* arrow_circle_left.png */; };
@@ -75,8 +75,8 @@
 		25030706130E82AC003D0727 /* MCRemoteResourceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCRemoteResourceProvider.h; sourceTree = "<group>"; };
 		25030708130E8329003D0727 /* MCS3ResourceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCS3ResourceProvider.h; sourceTree = "<group>"; };
 		25030709130E8329003D0727 /* MCS3ResourceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCS3ResourceProvider.m; sourceTree = "<group>"; };
-		25030948130EA3C7003D0727 /* MCTestS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTestS3.h; sourceTree = "<group>"; };
-		25030949130EA3C8003D0727 /* MCTestS3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTestS3.m; sourceTree = "<group>"; };
+		2503094B130EB65C003D0727 /* MCS3Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCS3Test.h; sourceTree = "<group>"; };
+		2503094C130EB65C003D0727 /* MCS3Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCS3Test.m; sourceTree = "<group>"; };
 		251F40001309167A005CB000 /* MCTestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCTestCell.xib; sourceTree = "<group>"; };
 		251F400213091909005CB000 /* MCTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCTestCell.h; sourceTree = "<group>"; };
 		251F400313091909005CB000 /* MCTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCTestCell.m; sourceTree = "<group>"; };
@@ -306,12 +306,12 @@
 				251F400B13093BF9005CB000 /* MCTestsView.xib */,
 				251F40211309593A005CB000 /* MCTest.h */,
 				251F40221309593C005CB000 /* MCTest.m */,
+				2503094B130EB65C003D0727 /* MCS3Test.h */,
+				2503094C130EB65C003D0727 /* MCS3Test.m */,
 				251F402413095969005CB000 /* MCTestDelegate.h */,
 				25030706130E82AC003D0727 /* MCRemoteResourceProvider.h */,
 				25030708130E8329003D0727 /* MCS3ResourceProvider.h */,
 				25030709130E8329003D0727 /* MCS3ResourceProvider.m */,
-				25030948130EA3C7003D0727 /* MCTestS3.h */,
-				25030949130EA3C8003D0727 /* MCTestS3.m */,
 			);
 			path = PerformanceTesting;
 			sourceTree = "<group>";
@@ -538,7 +538,7 @@
 				251F405B130971F4005CB000 /* InAppSettingsReader.m in Sources */,
 				251F405C130971F4005CB000 /* InAppSettingsSpecifier.m in Sources */,
 				2503070A130E8329003D0727 /* MCS3ResourceProvider.m in Sources */,
-				2503094A130EA3CA003D0727 /* MCTestS3.m in Sources */,
+				2503094D130EB65D003D0727 /* MCS3Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

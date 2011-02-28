@@ -13,6 +13,8 @@
 #import "MCTestCell.h"
 #import "GradientBackgroundTable.h"
 #import "MCTest.h"
+#import "MCS3Test.h"
+
 @implementation MCTestsController
 @synthesize tests;
 
@@ -68,7 +70,8 @@
 	tests = [[NSMutableArray alloc] init];
 	self.useCustomHeaders = YES;
 	[self removeAllSectionsWithAnimation:UITableViewRowAnimationFade];
-	MCTest *test = [[MCTest alloc] initWithName:@"Sample test" description:@"Sample test description. Lets see"];
+//	MCTest *test = [[MCTest alloc] initWithName:@"Sample test" description:@"Sample test description. Lets see"];
+	MCS3Test *test = [[MCS3Test alloc] init];
 	[self.tests addObject:test];
 	[self performSelector:@selector(createRows) withObject:nil afterDelay:0.5];
 }

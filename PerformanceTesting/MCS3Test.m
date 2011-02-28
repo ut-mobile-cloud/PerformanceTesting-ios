@@ -1,15 +1,15 @@
 //
-//  MCTestS3.m
+//  MCS3Test.m
 //  PerformanceTesting
 //
 //  Created by Madis Nõmme on 2/18/11.
 //  Copyright 2011 Indilo Wireless. All rights reserved.
 //
 
-#import "MCTestS3.h"
+#import "MCS3Test.h"
 #import "MCS3ResourceProvider.h"
 
-@implementation MCTestS3
+@implementation MCS3Test
 
 - (id)init
 {
@@ -22,6 +22,6 @@
 
 - (void)run
 {
-	
+	DLog(@"Subclass is running")
 }
 @end

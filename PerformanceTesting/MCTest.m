@@ -23,10 +23,14 @@
 }
 - (void)run
 {
+//	Uncomment to make this class behave more like a base class 
+//	(ie subclass has to define this method)
+	/*
 	[NSException raise:NSInternalInconsistencyException 
 				format:@"This method has to be overridden in a subclass"];
-//	progress = 0.0;
-//	[NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(informDelegate:) userInfo:nil repeats:YES];
+	 */
+	progress = 0.0;
+	[NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(informDelegate:) userInfo:nil repeats:YES];
 }
 
 - (void)informDelegate:(NSTimer *)timer
